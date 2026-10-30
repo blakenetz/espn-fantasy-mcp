@@ -1,0 +1,14 @@
+name = "espn-fantasy-mcp"
+main = "src/index.ts"
+compatibility_date = "2025-09-01"
+
+[vars]
+# LEAGUE_ID is a secret (see below) so the league isn't exposed in the repo.
+TEAM_ID = "3"
+SEASON = "2026"
+
+# Secrets (set with `npx wrangler secret put <NAME>`, never committed):
+#   LEAGUE_ID         ESPN league id (the leagueId= value in your league URL)
+#   ESPN_S2           espn_s2 cookie from a signed-in espn.com session
+#   ESPN_SWID         SWID cookie, e.g. {XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX}
+#   CONNECTOR_SECRET  long random string; becomes the URL path /mcp/<secret>
