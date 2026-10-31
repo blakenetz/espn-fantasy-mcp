@@ -1,0 +1,375 @@
+{
+ "players": [
+  {
+   "id": 4426348,
+   "status": "ONTEAM",
+   "onTeamId": 5,
+   "player": {
+    "id": 4426348,
+    "fullName": "Jayden Daniels",
+    "defaultPositionId": 1,
+    "proTeamId": 28,
+    "injuryStatus": "ACTIVE",
+    "injured": false,
+    "ownership": {
+     "percentOwned": 95.12,
+     "percentStarted": 70.77
+    },
+    "stats": [
+     {
+      "seasonId": 2025,
+      "statSourceId": 0,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 114.28
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 0,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 85.66
+     },
+     {
+      "seasonId": 2025,
+      "statSourceId": 1,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 371.59177126
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 2,
+      "scoringPeriodId": 0,
+      "appliedTotal": 317.85727793
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 1,
+      "scoringPeriodId": 8,
+      "appliedTotal": 22.80336259
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 236.92902272
+     }
+    ]
+   }
+  },
+  {
+   "id": 2473037,
+   "status": "ONTEAM",
+   "onTeamId": 7,
+   "player": {
+    "id": 2473037,
+    "fullName": "Jason Myers",
+    "defaultPositionId": 5,
+    "proTeamId": 26,
+    "injuryStatus": "ACTIVE",
+    "injured": false,
+    "ownership": {
+     "percentOwned": 89.2,
+     "percentStarted": 84.03
+    },
+    "stats": [
+     {
+      "seasonId": 2025,
+      "statSourceId": 0,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 195.0
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 0,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 67.0
+     },
+     {
+      "seasonId": 2025,
+      "statSourceId": 1,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 136.51033265
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 2,
+      "scoringPeriodId": 0,
+      "appliedTotal": 148.31934681
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 1,
+      "scoringPeriodId": 8,
+      "appliedTotal": 9.55352238
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 95.32653989
+     }
+    ]
+   }
+  },
+  {
+   "id": 4034949,
+   "status": "FREEAGENT",
+   "onTeamId": 0,
+   "player": {
+    "id": 4034949,
+    "fullName": "Eddy Pineiro",
+    "defaultPositionId": 5,
+    "proTeamId": 25,
+    "injuryStatus": "ACTIVE",
+    "injured": false,
+    "ownership": {
+     "percentOwned": 40.63,
+     "percentStarted": 26.18
+    },
+    "stats": [
+     {
+      "seasonId": 2025,
+      "statSourceId": 0,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 139.0
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 0,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 41.0
+     },
+     {
+      "seasonId": 2025,
+      "statSourceId": 1,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 0.0
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 2,
+      "scoringPeriodId": 0,
+      "appliedTotal": 147.5157264
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 1,
+      "scoringPeriodId": 8,
+      "appliedTotal": 0.0
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 75.71163808
+     }
+    ]
+   }
+  },
+  {
+   "id": -16030,
+   "status": "ONTEAM",
+   "onTeamId": 1,
+   "player": {
+    "id": -16030,
+    "fullName": "Jaguars D/ST",
+    "defaultPositionId": 16,
+    "proTeamId": 30,
+    "injured": false,
+    "ownership": {
+     "percentOwned": 78.58,
+     "percentStarted": 71.21
+    },
+    "stats": [
+     {
+      "seasonId": 2025,
+      "statSourceId": 0,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 139.0
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 0,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 34.0
+     },
+     {
+      "seasonId": 2025,
+      "statSourceId": 1,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 87.30535169
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 2,
+      "scoringPeriodId": 0,
+      "appliedTotal": 82.24372352
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 1,
+      "scoringPeriodId": 8,
+      "appliedTotal": 7.41003538
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 64.39042385
+     }
+    ]
+   }
+  },
+  {
+   "id": 4685720,
+   "status": "WAIVERS",
+   "onTeamId": 0,
+   "player": {
+    "id": 4685720,
+    "fullName": "Bryce Young",
+    "defaultPositionId": 1,
+    "proTeamId": 29,
+    "injuryStatus": "ACTIVE",
+    "injured": false,
+    "ownership": {
+     "percentOwned": 81.31,
+     "percentStarted": 34.83
+    },
+    "stats": [
+     {
+      "seasonId": 2025,
+      "statSourceId": 0,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 218.04
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 0,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 126.24
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 0,
+      "statSplitTypeId": 1,
+      "scoringPeriodId": 8,
+      "appliedTotal": 10.36
+     },
+     {
+      "seasonId": 2025,
+      "statSourceId": 1,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 267.8960311
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 2,
+      "scoringPeriodId": 0,
+      "appliedTotal": 246.91771215
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 1,
+      "scoringPeriodId": 8,
+      "appliedTotal": 16.90771482
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 192.47684723
+     }
+    ]
+   }
+  },
+  {
+   "id": -16034,
+   "status": "FREEAGENT",
+   "onTeamId": 0,
+   "player": {
+    "id": -16034,
+    "fullName": "Texans D/ST",
+    "defaultPositionId": 16,
+    "proTeamId": 34,
+    "injured": false,
+    "ownership": {
+     "percentOwned": 66.4,
+     "percentStarted": 25.9
+    },
+    "stats": [
+     {
+      "seasonId": 2025,
+      "statSourceId": 0,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 173.0
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 0,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 29.0
+     },
+     {
+      "seasonId": 2025,
+      "statSourceId": 1,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 128.8238115
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 2,
+      "scoringPeriodId": 0,
+      "appliedTotal": 119.94409901
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 1,
+      "scoringPeriodId": 8,
+      "appliedTotal": 0.0
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 60.47471563
+     }
+    ]
+   }
+  }
+ ]
+}

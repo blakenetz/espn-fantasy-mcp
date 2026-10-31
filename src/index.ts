@@ -20,14 +20,14 @@ const TOOLS: Tool[] = [
   {
     name: "get_league",
     description:
-      "League settings and standings: scoring (points per reception), lineup slots, waiver/FAAB rules, current week, and every team's record, seed, waiver rank and FAAB spent. Marks which team is mine.",
+      "League settings and standings: scoring (points per reception, any weekly win bonus), lineup slots, waiver type (FAAB or traditional), playoff format, current week, and every team's record, seed and waiver rank. Marks which team is mine.",
     inputSchema: { type: "object", properties: {}, additionalProperties: false },
     run: (espn) => espn.getLeague(),
   },
   {
     name: "get_roster",
     description:
-      "A team's roster for a week, split into starters and bench, with each player's slot, position, NFL team, injury status, ESPN projection, actual points and % owned/started. Defaults to my team.",
+      "A team's roster for a week, split into starters and bench, with each player's slot, position, NFL team, NFL opponent that week (or BYE), bye week, injury status, ESPN projection, actual points and % owned/started. Defaults to my team.",
     inputSchema: {
       type: "object",
       properties: { team_id: { type: "integer", description: "Team id (from get_league). Defaults to my team." }, week },
@@ -37,14 +37,15 @@ const TOOLS: Tool[] = [
   },
   {
     name: "get_matchup",
-    description: "My head-to-head matchup for a week: both full rosters with projections, plus points scored so far.",
+    description:
+      "My head-to-head matchup for a week: both full rosters with projections, live points so far, ESPN's projected totals and win probability. Playoff matchups can span two NFL weeks (see matchupWeeks).",
     inputSchema: { type: "object", properties: { week }, additionalProperties: false },
     run: (espn, a) => espn.getMatchup(a.week),
   },
   {
     name: "get_free_agents",
     description:
-      "Best available players (free agents and players on waivers), sorted by % owned, with projections and injury status.",
+      "Best available players (free agents and players on waivers), sorted by % owned, with projections, NFL opponent, bye week and injury status.",
     inputSchema: {
       type: "object",
       properties: {
@@ -56,10 +57,29 @@ const TOOLS: Tool[] = [
     },
     run: (espn, a) => espn.getFreeAgents(a.position ?? "ALL", a.limit ?? 25, a.week),
   },
+  {
+    name: "get_pro_schedule",
+    description: "NFL schedule for a week: every game with kickoff time (UTC), teams on bye, and each NFL team's bye week for the season.",
+    inputSchema: { type: "object", properties: { week }, additionalProperties: false },
+    run: (espn, a) => espn.getProSchedule(a.week),
+  },
+  {
+    name: "get_recent_transactions",
+    description:
+      "Completed league transactions (free-agent adds/drops, waiver claims, trades) for the current week and the weeks before it, newest first.",
+    inputSchema: {
+      type: "object",
+      properties: {
+        weeks: { type: "integer", minimum: 1, maximum: 4, default: 2, description: "How many weeks to look back, including the current one." },
+      },
+      additionalProperties: false,
+    },
+    run: (espn, a) => espn.getRecentTransactions(a.weeks ?? 2),
+  },
 ];
 
 const INSTRUCTIONS =
-  "Read-only access to one ESPN fantasy football league. Start with get_league for scoring and rules, then get_roster / get_matchup for my team and get_free_agents for waiver targets. Projections are ESPN's; combine with outside research.";
+  "Read-only access to one ESPN fantasy football league. Start with get_league for scoring and rules, then get_roster / get_matchup for my team, get_free_agents for waiver targets, get_pro_schedule for byes and NFL matchups, and get_recent_transactions for league activity. Projections are ESPN's; combine with outside research.";
 
 type RpcMessage = { jsonrpc: "2.0"; id?: string | number | null; method?: string; params?: any };
 

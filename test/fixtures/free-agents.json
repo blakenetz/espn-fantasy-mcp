@@ -1,0 +1,370 @@
+{
+ "players": [
+  {
+   "id": 4612826,
+   "status": "FREEAGENT",
+   "onTeamId": 0,
+   "player": {
+    "id": 4612826,
+    "fullName": "Ladd McConkey",
+    "defaultPositionId": 3,
+    "proTeamId": 24,
+    "injuryStatus": "ACTIVE",
+    "injured": false,
+    "ownership": {
+     "percentOwned": 84.51,
+     "percentStarted": 22.83
+    },
+    "stats": [
+     {
+      "seasonId": 2025,
+      "statSourceId": 0,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 180.9
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 0,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 39.0
+     },
+     {
+      "seasonId": 2025,
+      "statSourceId": 1,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 243.24386891
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 2,
+      "scoringPeriodId": 0,
+      "appliedTotal": 221.25312567
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 1,
+      "scoringPeriodId": 8,
+      "appliedTotal": 10.36477685
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 119.92912167
+     }
+    ]
+   }
+  },
+  {
+   "id": 4685247,
+   "status": "FREEAGENT",
+   "onTeamId": 0,
+   "player": {
+    "id": 4685247,
+    "fullName": "Braelon Allen",
+    "defaultPositionId": 2,
+    "proTeamId": 20,
+    "injuryStatus": "ACTIVE",
+    "injured": false,
+    "ownership": {
+     "percentOwned": 80.88,
+     "percentStarted": 36.01
+    },
+    "stats": [
+     {
+      "seasonId": 2025,
+      "statSourceId": 0,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 15.3
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 0,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 76.3
+     },
+     {
+      "seasonId": 2025,
+      "statSourceId": 1,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 94.17308006
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 2,
+      "scoringPeriodId": 0,
+      "appliedTotal": 123.0231128
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 1,
+      "scoringPeriodId": 8,
+      "appliedTotal": 10.82854693
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 87.20606513
+     }
+    ]
+   }
+  },
+  {
+   "id": 4241985,
+   "status": "FREEAGENT",
+   "onTeamId": 0,
+   "player": {
+    "id": 4241985,
+    "fullName": "J.K. Dobbins",
+    "defaultPositionId": 2,
+    "proTeamId": 7,
+    "injuryStatus": "ACTIVE",
+    "injured": false,
+    "ownership": {
+     "percentOwned": 76.8,
+     "percentStarted": 22.57
+    },
+    "stats": [
+     {
+      "seasonId": 2025,
+      "statSourceId": 0,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 115.9
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 0,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 58.0
+     },
+     {
+      "seasonId": 2025,
+      "statSourceId": 1,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 171.3660011
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 2,
+      "scoringPeriodId": 0,
+      "appliedTotal": 184.51243216
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 1,
+      "scoringPeriodId": 8,
+      "appliedTotal": 9.71850837
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 84.48860009
+     }
+    ]
+   }
+  },
+  {
+   "id": 4429205,
+   "status": "FREEAGENT",
+   "onTeamId": 0,
+   "player": {
+    "id": 4429205,
+    "fullName": "Jordan Addison",
+    "defaultPositionId": 3,
+    "proTeamId": 16,
+    "injuryStatus": "ACTIVE",
+    "injured": false,
+    "ownership": {
+     "percentOwned": 71.85,
+     "percentStarted": 21.68
+    },
+    "stats": [
+     {
+      "seasonId": 2025,
+      "statSourceId": 0,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 135.1
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 0,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 37.5
+     },
+     {
+      "seasonId": 2025,
+      "statSourceId": 1,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 167.30882584
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 2,
+      "scoringPeriodId": 0,
+      "appliedTotal": 157.66939814
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 1,
+      "scoringPeriodId": 8,
+      "appliedTotal": 9.7904327
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 102.68659644
+     }
+    ]
+   }
+  },
+  {
+   "id": 4429059,
+   "status": "FREEAGENT",
+   "onTeamId": 0,
+   "player": {
+    "id": 4429059,
+    "fullName": "Woody Marks",
+    "defaultPositionId": 2,
+    "proTeamId": 34,
+    "injuryStatus": "ACTIVE",
+    "injured": false,
+    "ownership": {
+     "percentOwned": 71.39,
+     "percentStarted": 5.79
+    },
+    "stats": [
+     {
+      "seasonId": 2025,
+      "statSourceId": 0,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 151.1
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 0,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 62.5
+     },
+     {
+      "seasonId": 2025,
+      "statSourceId": 1,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 73.34985633
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 2,
+      "scoringPeriodId": 0,
+      "appliedTotal": 108.59041954
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 1,
+      "scoringPeriodId": 8,
+      "appliedTotal": 0.0
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 80.16695626
+     }
+    ]
+   }
+  },
+  {
+   "id": 4426385,
+   "status": "FREEAGENT",
+   "onTeamId": 0,
+   "player": {
+    "id": 4426385,
+    "fullName": "Zach Charbonnet",
+    "defaultPositionId": 2,
+    "proTeamId": 26,
+    "injuryStatus": "QUESTIONABLE",
+    "injured": false,
+    "ownership": {
+     "percentOwned": 71.23,
+     "percentStarted": 13.81
+    },
+    "stats": [
+     {
+      "seasonId": 2025,
+      "statSourceId": 0,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 181.4
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 0,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 0.0
+     },
+     {
+      "seasonId": 2025,
+      "statSourceId": 1,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 137.02487636
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 2,
+      "scoringPeriodId": 0,
+      "appliedTotal": 133.14252514
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 1,
+      "scoringPeriodId": 8,
+      "appliedTotal": 10.52226389
+     },
+     {
+      "seasonId": 2026,
+      "statSourceId": 1,
+      "statSplitTypeId": 0,
+      "scoringPeriodId": 0,
+      "appliedTotal": 144.43483211
+     }
+    ]
+   }
+  }
+ ]
+}

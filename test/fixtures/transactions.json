@@ -1,0 +1,282 @@
+{
+ "id": 1,
+ "seasonId": 2026,
+ "scoringPeriodId": 8,
+ "status": {
+  "currentMatchupPeriod": 8,
+  "latestScoringPeriod": 8
+ },
+ "teams": [
+  {
+   "id": 1,
+   "playoffSeed": 2,
+   "waiverRank": 6,
+   "record": {
+    "overall": {
+     "wins": 9,
+     "losses": 5,
+     "ties": 0,
+     "pointsFor": 831.0400000000001,
+     "pointsAgainst": 815.96
+    }
+   },
+   "transactionCounter": {
+    "acquisitionBudgetSpent": 0
+   },
+   "name": "Team 1"
+  },
+  {
+   "id": 2,
+   "playoffSeed": 1,
+   "waiverRank": 7,
+   "record": {
+    "overall": {
+     "wins": 10,
+     "losses": 4,
+     "ties": 0,
+     "pointsFor": 961.5799999999999,
+     "pointsAgainst": 887.9000000000001
+    }
+   },
+   "transactionCounter": {
+    "acquisitionBudgetSpent": 0
+   },
+   "name": "Team 2"
+  },
+  {
+   "id": 3,
+   "playoffSeed": 4,
+   "waiverRank": 4,
+   "record": {
+    "overall": {
+     "wins": 8,
+     "losses": 6,
+     "ties": 0,
+     "pointsFor": 884.5400000000001,
+     "pointsAgainst": 891.88
+    }
+   },
+   "transactionCounter": {
+    "acquisitionBudgetSpent": 0
+   },
+   "name": "Team 3"
+  },
+  {
+   "id": 4,
+   "playoffSeed": 5,
+   "waiverRank": 3,
+   "record": {
+    "overall": {
+     "wins": 8,
+     "losses": 6,
+     "ties": 0,
+     "pointsFor": 854.8199999999999,
+     "pointsAgainst": 779.9399999999999
+    }
+   },
+   "transactionCounter": {
+    "acquisitionBudgetSpent": 0
+   },
+   "name": "Team 4"
+  },
+  {
+   "id": 5,
+   "playoffSeed": 6,
+   "waiverRank": 8,
+   "record": {
+    "overall": {
+     "wins": 6,
+     "losses": 8,
+     "ties": 0,
+     "pointsFor": 860.1800000000001,
+     "pointsAgainst": 794.18
+    }
+   },
+   "transactionCounter": {
+    "acquisitionBudgetSpent": 0
+   },
+   "name": "Team 5"
+  },
+  {
+   "id": 6,
+   "playoffSeed": 7,
+   "waiverRank": 2,
+   "record": {
+    "overall": {
+     "wins": 5,
+     "losses": 9,
+     "ties": 0,
+     "pointsFor": 781.6599999999999,
+     "pointsAgainst": 936.08
+    }
+   },
+   "transactionCounter": {
+    "acquisitionBudgetSpent": 0
+   },
+   "name": "Team 6"
+  },
+  {
+   "id": 7,
+   "playoffSeed": 8,
+   "waiverRank": 1,
+   "record": {
+    "overall": {
+     "wins": 2,
+     "losses": 12,
+     "ties": 0,
+     "pointsFor": 802.1800000000001,
+     "pointsAgainst": 947.98
+    }
+   },
+   "transactionCounter": {
+    "acquisitionBudgetSpent": 0
+   },
+   "name": "Team 7"
+  },
+  {
+   "id": 8,
+   "playoffSeed": 3,
+   "waiverRank": 5,
+   "record": {
+    "overall": {
+     "wins": 8,
+     "losses": 6,
+     "ties": 0,
+     "pointsFor": 935.4,
+     "pointsAgainst": 857.48
+    }
+   },
+   "transactionCounter": {
+    "acquisitionBudgetSpent": 0
+   },
+   "name": "Team 8"
+  }
+ ],
+ "transactions": [
+  {
+   "id": "d9e646d5-a4ea-48a4-9ac3-5ce580230c6d",
+   "type": "FREEAGENT",
+   "status": "EXECUTED",
+   "scoringPeriodId": 8,
+   "proposedDate": 1793316136450,
+   "teamId": 7,
+   "bidAmount": 0,
+   "items": [
+    {
+     "fromLineupSlotId": -1,
+     "fromTeamId": 0,
+     "isKeeper": false,
+     "overallPickNumber": 0,
+     "playerId": 2473037,
+     "toLineupSlotId": 17,
+     "toTeamId": 7,
+     "type": "ADD"
+    },
+    {
+     "fromLineupSlotId": 17,
+     "fromTeamId": 7,
+     "isKeeper": false,
+     "overallPickNumber": 0,
+     "playerId": 4034949,
+     "toLineupSlotId": -1,
+     "toTeamId": 0,
+     "type": "DROP"
+    }
+   ]
+  },
+  {
+   "id": "155bbf46-f708-40dc-9626-a3e93f0b07b3",
+   "type": "FREEAGENT",
+   "status": "EXECUTED",
+   "scoringPeriodId": 8,
+   "proposedDate": 1793284765634,
+   "teamId": 1,
+   "bidAmount": 0,
+   "items": [
+    {
+     "fromLineupSlotId": -1,
+     "fromTeamId": 0,
+     "isKeeper": false,
+     "overallPickNumber": 0,
+     "playerId": -16030,
+     "toLineupSlotId": 16,
+     "toTeamId": 1,
+     "type": "ADD"
+    },
+    {
+     "fromLineupSlotId": 16,
+     "fromTeamId": 1,
+     "isKeeper": false,
+     "overallPickNumber": 0,
+     "playerId": -16034,
+     "toLineupSlotId": -1,
+     "toTeamId": 0,
+     "type": "DROP"
+    }
+   ]
+  },
+  {
+   "id": "1144fb22-f31c-4564-a5df-e2ffff1a2719",
+   "type": "WAIVER",
+   "status": "EXECUTED",
+   "scoringPeriodId": 8,
+   "proposedDate": 1793174750061,
+   "processDate": 1793174750398,
+   "teamId": 5,
+   "bidAmount": 0,
+   "items": [
+    {
+     "fromLineupSlotId": -1,
+     "fromTeamId": 0,
+     "isKeeper": false,
+     "overallPickNumber": 0,
+     "playerId": 4426348,
+     "toLineupSlotId": 0,
+     "toTeamId": 5,
+     "type": "ADD"
+    },
+    {
+     "fromLineupSlotId": 0,
+     "fromTeamId": 5,
+     "isKeeper": false,
+     "overallPickNumber": 0,
+     "playerId": 4685720,
+     "toLineupSlotId": -1,
+     "toTeamId": 0,
+     "type": "DROP"
+    }
+   ]
+  },
+  {
+   "id": "f4cbd862-4248-47d0-8665-1f4cb880708c",
+   "type": "ROSTER",
+   "status": "EXECUTED",
+   "scoringPeriodId": 8,
+   "proposedDate": 1793316259331,
+   "teamId": 6,
+   "bidAmount": 0,
+   "items": [
+    {
+     "fromLineupSlotId": 2,
+     "fromTeamId": 0,
+     "isKeeper": false,
+     "overallPickNumber": 0,
+     "playerId": 4596448,
+     "toLineupSlotId": 23,
+     "toTeamId": 0,
+     "type": "LINEUP"
+    },
+    {
+     "fromLineupSlotId": 23,
+     "fromTeamId": 0,
+     "isKeeper": false,
+     "overallPickNumber": 0,
+     "playerId": 4241985,
+     "toLineupSlotId": 2,
+     "toTeamId": 0,
+     "type": "LINEUP"
+    }
+   ]
+  }
+ ]
+}
