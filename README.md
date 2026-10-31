@@ -2,7 +2,7 @@
 
 Read-only MCP connector for one private ESPN fantasy football league, running on Cloudflare Workers (free tier). No dependencies at runtime: a stateless Streamable-HTTP MCP endpoint plus a thin client for ESPN's league API.
 
-**Tools:** `get_league` (scoring, lineup slots, FAAB, standings) · `get_roster` · `get_matchup` · `get_free_agents`
+**Tools:** `get_league` (scoring, lineup slots, waivers, playoff format, standings) · `get_roster` · `get_matchup` (live points, win probability) · `get_free_agents` · `get_pro_schedule` (NFL games and byes) · `get_recent_transactions` (adds, drops, waivers, trades). Player summaries include the NFL opponent for the week and the bye week.
 
 Team `3` and season `2026` are set in `wrangler.toml`; the league id is a Worker secret.
 
@@ -37,4 +37,5 @@ Team `3` and season `2026` are set in `wrangler.toml`; the league id is a Worker
 - **Security:** the secret path is the only gate, so treat the URL like a password. The server is read-only and can't change your lineup or make claims.
 - **Cookie expiry:** when `espn_s2` expires, tools return an error that says so. Copy fresh cookies and re-run `wrangler secret put ESPN_S2` (and `ESPN_SWID`).
 - **Next season:** bump `SEASON` in `wrangler.toml` and redeploy.
-- `npm test` runs an offline smoke test against fixture data; `npm run typecheck` runs tsc.
+- **Local dev:** put the four secrets in `.dev.vars` (gitignored) as `NAME="value"` lines; `npm run dev` then serves the connector on `localhost:8787` against the real league.
+- `npm test` runs an offline smoke test against recorded, scrubbed ESPN responses in `test/fixtures/` (week 8 of 2026); `npm run typecheck` runs tsc.
